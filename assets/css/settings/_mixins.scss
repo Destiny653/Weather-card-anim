@@ -1,0 +1,85 @@
+
+@mixin EleWH($w,$h){
+    width: $w;
+    height: $h;
+}
+// @mixin group($w) {
+//     max-width: $w;
+//     margin: 0 auto;
+// }
+// @mixin EleSpacerPM($p,$m) {
+//     padding: $p;
+//     margin: $m;
+// }
+
+// @mixin EleBoxsize() {
+//     -webkit-box-sizing: border-box;
+//     -moz-box-sizing: border-box;
+//     box-sizing: border-box;
+// }
+// @mixin EleBoxshadow() {
+//     -webkit-box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, .1);
+//       box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, .1);
+// }
+@mixin EleflexGap($f,$g){
+    display: $f;
+    gap: $g;
+}
+@mixin EleHL($h,$l){
+    height: $h;
+    line-height: $l;
+}
+@mixin EleFontswf($fs,$fw){
+    font-size: $fs;
+    font-weight: $fw;
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin EleFlexB(){
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin EleFlexA(){
+    display: flex;
+    align-items: center;
+}
+
+@mixin EleFlexBA(){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin Eleflex() {
+    display: flex;
+    justify-content: center;
+}
+
+// Padding
+
+@mixin EleSpacerPtb($pt,$pb) {
+    padding-top: $pt;
+    padding-bottom: $pb;
+}
+@mixin EleSpacerPlr($pl,$pr) {
+    padding-left: $pl;
+    padding-right: $pr;
+}
+// Margin
+
+@mixin EleSpacerMtb($mt,$mb) {
+    margin-top: $mt;
+    margin-bottom: $mb;
+}
+@mixin EleSpacerMlr($ml,$mr) {
+    margin-left: $ml;
+    margin-right: $mr;
+}
+
+// Length and Width
+
+@mixin EleLength($w , $h) {
+    width: $w;
+    height: $h;
+}
